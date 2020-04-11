@@ -11,11 +11,35 @@ export default class ComponentApp extends Component {
         }
     }
 
+    componentWillMount() {
+        this._loadComments()
+    }
+
+    _loadComments() {
+        let comments = localStorage.getItem('comments')
+        if (comments) {
+            comments = JSON.parse(comments)
+            this.setState({
+                comments
+            })
+        }
+    }
+
+    _saveComments(comments) {
+        localStorage.setItem('comments', JSON.stringify(comments))
+    }
+
     handleSubmitComment(comment) {
-        this.state.comments.push(comment)
+        if (!comment) {return alert('You haven\'t enter anything')}
+        if (!comment.userName) {return alert('Please enter user name')}
+        if (!comment.comment) {return alert('Please enter your comment')} 
+
+        const comments = this.state.comments
+        comments.push(comment)
         this.setState({
-            comments: this.state.comments
+            comments
         })
+        this._saveComments(comments)
     }
 
     render() {
