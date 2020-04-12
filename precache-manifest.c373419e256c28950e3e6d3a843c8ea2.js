@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6485398e43ed43e8a092790ea22dca13",
+    "revision": "3463f70740e3f5354ee8c74e8fa10f44",
     "url": "/commenting-system-with-react/index.html"
   },
   {
