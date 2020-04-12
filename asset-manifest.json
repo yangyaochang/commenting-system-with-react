@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/commenting-system-with-react/static/css/main.270090ac.chunk.css",
-    "main.js": "/commenting-system-with-react/static/js/main.467716f1.chunk.js",
-    "main.js.map": "/commenting-system-with-react/static/js/main.467716f1.chunk.js.map",
-    "runtime-main.js": "/commenting-system-with-react/static/js/runtime-main.5f808b7c.js",
-    "runtime-main.js.map": "/commenting-system-with-react/static/js/runtime-main.5f808b7c.js.map",
-    "static/js/2.c02ddf73.chunk.js": "/commenting-system-with-react/static/js/2.c02ddf73.chunk.js",
-    "static/js/2.c02ddf73.chunk.js.map": "/commenting-system-with-react/static/js/2.c02ddf73.chunk.js.map",
-    "index.html": "/commenting-system-with-react/index.html",
-    "precache-manifest.5a1d696d29f8a8257d1e39fb3a863864.js": "/commenting-system-with-react/precache-manifest.5a1d696d29f8a8257d1e39fb3a863864.js",
-    "service-worker.js": "/commenting-system-with-react/service-worker.js",
-    "static/css/main.270090ac.chunk.css.map": "/commenting-system-with-react/static/css/main.270090ac.chunk.css.map",
-    "static/js/2.c02ddf73.chunk.js.LICENSE.txt": "/commenting-system-with-react/static/js/2.c02ddf73.chunk.js.LICENSE.txt"
+    "main.css": "/commenting-system-with-react/public/static/css/main.270090ac.chunk.css",
+    "main.js": "/commenting-system-with-react/public/static/js/main.29c6ffe7.chunk.js",
+    "main.js.map": "/commenting-system-with-react/public/static/js/main.29c6ffe7.chunk.js.map",
+    "runtime-main.js": "/commenting-system-with-react/public/static/js/runtime-main.43d51971.js",
+    "runtime-main.js.map": "/commenting-system-with-react/public/static/js/runtime-main.43d51971.js.map",
+    "static/js/2.c02ddf73.chunk.js": "/commenting-system-with-react/public/static/js/2.c02ddf73.chunk.js",
+    "static/js/2.c02ddf73.chunk.js.map": "/commenting-system-with-react/public/static/js/2.c02ddf73.chunk.js.map",
+    "index.html": "/commenting-system-with-react/public/index.html",
+    "precache-manifest.f854367ad823770c0a786fc4f9fe0889.js": "/commenting-system-with-react/public/precache-manifest.f854367ad823770c0a786fc4f9fe0889.js",
+    "service-worker.js": "/commenting-system-with-react/public/service-worker.js",
+    "static/css/main.270090ac.chunk.css.map": "/commenting-system-with-react/public/static/css/main.270090ac.chunk.css.map",
+    "static/js/2.c02ddf73.chunk.js.LICENSE.txt": "/commenting-system-with-react/public/static/js/2.c02ddf73.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5f808b7c.js",
+    "static/js/runtime-main.43d51971.js",
     "static/js/2.c02ddf73.chunk.js",
     "static/css/main.270090ac.chunk.css",
-    "static/js/main.467716f1.chunk.js"
+    "static/js/main.29c6ffe7.chunk.js"
   ]
 }
