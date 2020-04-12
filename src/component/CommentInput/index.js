@@ -1,11 +1,17 @@
 import React, { Component } from 'react'
+import PropTypes from '../../../node_modules/prop-types'
 
 export default class CommentInput extends Component {
+    // onSubmit has to be a function
+    static propTypes = {
+        onSubmit: PropTypes.func
+    }
+
     constructor(props) {
         super(props)
         this.state = {
-            userName: 'Who are you?',
-            comment: 'What\'s on your mind?'
+            userName: '',
+            comment: ''
         }
     }
 
@@ -49,12 +55,12 @@ export default class CommentInput extends Component {
 
     // Use single underscore for private method
     _saveUserName(userName) {
-        // Windoe.localStorage
-        localStorage.setItem('userName', userName)
+        // Windoe.sessionStorage
+        sessionStorage.setItem('userName', userName)
     }
 
     _loadUserName() {
-        const userName = localStorage.getItem('userName')
+        const userName = sessionStorage.getItem('userName')
         if (userName) {
             this.setState({
                 userName
